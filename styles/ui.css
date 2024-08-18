@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  font-family: 'Open Sans', serif;
+}
+
+#root {
+  background-color: rgba(255, 112, 226, .1);
+  height: 100svh;
+  color: #000;
+}
+
+#mainContainer {
+  display: flex;
+  height: 100svh;
+  width: 100%;
+  flex-direction: column;
+}
+
+#header {
+  flex: 0.4;
+  border-bottom: 0.05em solid #36005F;
+  border-radius: 0.6em;
+  padding: .3em;
+  color: #FF006B;
+}
+
+#header h1 {
+  font-size: 1.1em;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+#code {
+  position: absolute;
+  top: .3em;
+  color: #FF006B ;
+}
+
+#main {
+  flex: 8.6;
+  overflow: scroll;
+}
+
+#footer {
+  flex: 1;
+  border-top: 0.05em solid #36005F;
+  border-radius: 0.6em;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu div {
+  flex: 1;
+  padding: .4em 1em;
+  margin: 0 1em;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  text-align: center;
+}
+
+#menu div svg {
+  width: 80%;
+  color: #6F02CE;
+}
+
+@media (min-width: 768px) {
+  #root {
+    width: 375px; 
+    height: 667px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin:0 auto;
+  }
+  #mainContainer {
+    height: 100%;
+  }
+}

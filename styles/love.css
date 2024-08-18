@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Vazir;
+  src: url(Vazir.ttf);
+}
+
+#love {
+  width: 95%;
+  text-align:right;
+  margin: 1em auto;
+  font-family: Vazir;
+}
+
+#happyText {
+  margin: 1em;
+}
+
+#happyText p {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}

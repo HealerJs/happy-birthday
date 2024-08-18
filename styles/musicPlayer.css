@@ -1,0 +1,121 @@
+#musicPlayer {
+  width: 95%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.music-img {
+  width: 60%;
+  margin: 1em auto;
+}
+
+.music-img div {
+  background: rgb(255, 0, 194);
+  background: -moz-linear-gradient(120deg, rgba(255, 0, 194, 1) 0%, rgba(252, 106, 69, 1) 50%, rgba(164, 0, 255, 1) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(255, 0, 194, 1) 0%, rgba(252, 106, 69, 1) 50%, rgba(164, 0, 255, 1) 100%);
+  background: linear-gradient(120deg, rgba(255, 0, 194, 1) 0%, rgba(252, 106, 69, 1) 50%, rgba(164, 0, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff00c2", endColorstr="#a400ff", GradientType=1);
+  border-radius: 1em;
+  padding: 0.12em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: glow 0.5s ease-in-out infinite alternate;
+  animation-play-state: paused;
+}
+
+#musicImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+  border: 0.02em solid rgb(255, 0, 194, .7);
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 15px -5px rgb(255, 0, 194, .7);
+  }
+
+  to {
+    box-shadow: 0 0 15px 5px rgb(2255, 0, 194, .7);
+  }
+}
+
+#musicTitle {
+  margin-top: 1.3em;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+#musicArtist {
+  margin-top: .70em;
+}
+
+
+#music-time {
+  margin-top: 2em;
+  appearance: none;
+  width: 90%;
+  height: 1em;
+  background-image: linear-gradient(120deg, rgba(255, 0, 194, .7) 0%, rgba(252, 106, 69, .7) 50%, rgba(164, 0, 255, .7) 100%);
+  border: 1px solid rgb(2255, 0, 194, .8);
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+
+#music-time::-webkit-slider-thumb {
+  appearance: none;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #FF44C0;
+  border-radius: 50%;
+}
+
+#control-box {
+  margin: 1em auto;
+  color: #00FFE4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#control-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  padding: 1em;
+  margin: 1em;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background: rgb(255, 0, 194);
+  background: -moz-linear-gradient(120deg, rgba(255, 0, 194, 1) 0%, rgba(176, 69, 252, 1) 50%, rgba(255, 0, 0, 1) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(255, 0, 194, 1) 0%, rgba(176, 69, 252, 1) 50%, rgba(255, 0, 0, 1) 100%);
+  background: linear-gradient(120deg, rgba(255, 0, 194, 1) 0%, rgba(176, 69, 252, 1) 50%, rgba(255, 0, 0, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff00c2", endColorstr="#ff0000", GradientType=1);
+}
+
+#control-box div svg {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#downloadBtn {
+  display: block;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background: rgb(255, 0, 194);
+  background: -moz-linear-gradient(120deg, rgba(255, 0, 194, 1) 0%, rgba(176, 69, 252, 1) 50%, rgba(255, 0, 0, 1) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(255, 0, 194, 1) 0%, rgba(176, 69, 252, 1) 50%, rgba(255, 0, 0, 1) 100%);
+  background: linear-gradient(120deg, rgba(255, 0, 194, 1) 0%, rgba(176, 69, 252, 1) 50%, rgba(255, 0, 0, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff00c2", endColorstr="#ff0000", GradientType=1);
+}
+
+#downloadBtn svg {
+  width: 70%;
+  margin: .4em auto;
+}
