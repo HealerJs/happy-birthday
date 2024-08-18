@@ -10,7 +10,32 @@ let musics = [
     artist: "Mashki",
     cover: "assets/images/MeshkiNagahanvabarayehamishe.jpg",
     audio: new Audio("assets/musics/MeshkiNagahanvabarayehamishe.mp3")
- }
+ },
+  {
+    title: "Fou",
+    artist: "Shahin Najafi",
+    cover: "assets/images/ShahinNajafiFou.jpg",
+    audio: new Audio("assets/musics/ShahinNajafiFou.mp3")
+  },
+
+  {
+    title: "Fada Saret",
+    artist: "Wantons",
+    cover: "assets/images/WantonsFadaSaret.jpg",
+    audio: new Audio("assets/musics/WantonsFadaSaret.mp3")
+  },
+  {
+    title: "Niloofare Abi",
+    artist: "Reza Pishro",
+    cover: "assets/images/RezaPishroNiloofareAbi.jpg",
+    audio: new Audio("assets/musics/RezaPishroNiloofareAbi.mp3")
+  },
+  {
+  title: "Yadete",
+  artist: "Erfan Ft Sogand",
+  cover: "assets/images/ErfanFtSogandYadete.jpg",
+  audio: new Audio("assets/musics/ErfanFtSogandYadete.mp3")
+  }
 ];
 
 let musicTitle = document.getElementById("musicTitle");
@@ -47,7 +72,7 @@ audio.addEventListener("canplay", () => {
 
 audio.addEventListener("timeupdate", () => {
   musicTime.value = audio.currentTime;
-  
+
 })
 
 musicTime.addEventListener("input", () => {
@@ -104,7 +129,7 @@ function changeMusic(s) {
   musicArtist.innerHTML = musicData.artist;
   musicCover.src = musicData.cover;
   downloadBtn.href = musicData.audio.src
-  
+
   audio.addEventListener("canplay", () => {
     musicTime.max = audio.duration;
   });
