@@ -76,10 +76,11 @@ body {
   color: #6F02CE;
 }
 
+
 @media (min-width: 768px) {
   #root {
     width: 375px; 
-    height: 667px;
+    height: 100vh;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
