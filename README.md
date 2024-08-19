@@ -53,6 +53,7 @@ let musics = [
   }
 ];
 ```
+Created with love for Tara
 
 ## Persian {#persian}
 
@@ -105,3 +106,5 @@ let musics = [
   }
 ];
 ```
+
+نوشته شده با عشق برای تارا
