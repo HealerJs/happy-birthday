@@ -22,7 +22,7 @@ This project is a beautiful birthday celebration page featuring a cake, heartfel
 4. Under Build and deployment, select 'Deploy from a branch' as the Source
 5. Choose 'main' as the branch and '/ (root)' as the folder
 6. Click Save
-7. Your site will be published at `https://<your-username>.github.io/happy-birthday-tara/`
+7. Your site will be published at `https://<your-username>.github.io/ happy-birthday/`
 
 ### Customization
 
@@ -75,7 +75,7 @@ Created with love for Tara
 4. در قسمت Build and deployment، گزینه 'Deploy from a branch' را به عنوان Source انتخاب کنید
 5. شاخه 'main' و پوشه '/ (root)' را انتخاب کنید
 6. روی Save کلیک کنید
-7. سایت شما در آدرس `https://<نام-کاربری-شما>.github.io/happy-birthday-tara/` منتشر خواهد شد
+7. سایت شما در آدرس `https://<نام-کاربری-شما>.github.io/happy-birthday/` منتشر خواهد شد
 
 ### شخصی‌سازی
 
